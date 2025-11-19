@@ -8,7 +8,10 @@ export class UserController {
             const result = await UserServices.createUsers(data)
 
             console.log(result);
-            return res.json("Usuario creado correctamente", result)
+            return res.json({
+                message: "Usuario creado correctamente",
+                data: result
+            });
             
             
         } catch (error) {

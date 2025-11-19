@@ -11,6 +11,6 @@ export class UserServices {
             [user.nombre, user.email, user.password]
         )
 
-        return {message: `Ususario creado correctamente ${user}`}
+        return { message: "Usuario creado correctamente", user: user };
     }
 }

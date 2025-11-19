@@ -7,7 +7,7 @@ import { UserTable } from "./migrations/tables.js"
 dotenv.config()
 
 const app = express()
-app.use(cors)
+app.use(cors())
 app.use(express.json())
 
 app.use("/users", UserRouter)

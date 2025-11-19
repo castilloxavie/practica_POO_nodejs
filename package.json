@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "node src/server.js"
+    "create": "node src/server.js",
+    "get": "node src/serverGet.js",
+    "update": "node src/serverUpdate.js",
+    "delete": "node src/serverDelete.js"
   },
   "keywords": [],
   "author": "",
