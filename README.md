@@ -68,7 +68,7 @@ Este servidor maneja la creación de nuevos usuarios.
 ```bash
 npm run create
 ```
-El servidor se ejecutará en `http://localhost:4001`.
+El servidor se ejecutará en `http://localhost:3001`.
 
 ### Iniciar el servidor para OBTENER usuarios
 Este servidor maneja la obtención de usuarios.
@@ -76,7 +76,7 @@ Este servidor maneja la obtención de usuarios.
 ```bash
 npm run get
 ```
-El servidor se ejecutará en `http://localhost:4002`.
+El servidor se ejecutará en `http://localhost:3002`.
 
 ### Iniciar el servidor para ACTUALIZAR usuarios
 Este servidor maneja la actualización de la información de los usuarios.
@@ -84,7 +84,7 @@ Este servidor maneja la actualización de la información de los usuarios.
 ```bash
 npm run update
 ```
-El servidor se ejecutará en `http://localhost:4003`.
+El servidor se ejecutará en `http://localhost:3003`.
 
 ### Iniciar el servidor para ELIMINAR usuarios
 Este servidor maneja la eliminación de usuarios.
@@ -92,7 +92,7 @@ Este servidor maneja la eliminación de usuarios.
 ```bash
 npm run delete
 ```
-El servidor se ejecutará en `http://localhost:4004`.
+El servidor se ejecutará en `http://localhost:3004`.
 
 ## Endpoints de la API
 
@@ -100,7 +100,7 @@ El servidor se ejecutará en `http://localhost:4004`.
 
 ### ➕ Crear Usuario
 - **Endpoint:** `POST /users/create`
-- **Servidor:** `create` (Puerto 4001)
+- **Servidor:** `create` (Puerto 3001)
 - **Body (JSON):**
   ```json
   {
@@ -114,17 +114,17 @@ El servidor se ejecutará en `http://localhost:4004`.
 ### 🔍 Obtener Usuarios
 
 - **Endpoint (todos los usuarios):** `GET /users/all`
-- **Servidor:** `get` (Puerto 4002)
+- **Servidor:** `get` (Puerto 3002)
 
 - **Endpoint (usuario por ID):** `GET /users/:id`
-- **Servidor:** `get` (Puerto 4002)
-- **Ejemplo:** `GET http://localhost:4002/users/1`
+- **Servidor:** `get` (Puerto 3002)
+- **Ejemplo:** `GET http://localhost:3002/users/1`
 
 ### 🔄 Actualizar Usuario
 
 - **Endpoint:** `PUT /users/:id`
-- **Servidor:** `update` (Puerto 4003)
-- **Ejemplo:** `PUT http://localhost:4003/users/1`
+- **Servidor:** `update` (Puerto 3003)
+- **Ejemplo:** `PUT http://localhost:3003/users/1`
 - **Body (JSON):**
   ```json
   {
@@ -136,8 +136,8 @@ El servidor se ejecutará en `http://localhost:4004`.
 ### ❌ Eliminar Usuario
 
 - **Endpoint:** `DELETE /users/:id`
-- **Servidor:** `delete` (Puerto 4004)
-- **Ejemplo:** `DELETE http://localhost:4004/users/1`
+- **Servidor:** `delete` (Puerto 3004)
+- **Ejemplo:** `DELETE http://localhost:3004/users/1`
 
 ## Tecnologías Utilizadas
 
