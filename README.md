@@ -141,12 +141,12 @@ El servidor se ejecutará en `http://localhost:4004`.
 
 ## Tecnologías Utilizadas
 
-- **Node.js** - Entorno de ejecución para JavaScript.
-- **Express** - Framework web para Node.js.
-- **Sequelize** - ORM para Node.js basado en promesas.
-- **MySQL2** - Cliente de MySQL para Node.js.
-- **Dotenv** - Para cargar variables de entorno desde un archivo `.env`.
-- **Cors** - Middleware para habilitar CORS.
-- **Helmet** - Middleware para ayudar a securizar las aplicaciones Express.
-- **Morgan** - Middleware para el registro de solicitudes HTTP.
-- **Swagger JSDoc** y **Swagger UI Express** - Para la documentación de la API.
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+  <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white" alt="Sequelize"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
+</p>
+
